@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Prathic Sundararajan",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a software engineer that is interested in the application of technology in the following domains: healthcare, robotics and space. Additionally, I am also interested in applying data science methodologies within these domains.",
 	},
 
 	about: {
@@ -35,46 +35,45 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "BEAMS | NIH",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Created a lesson plan intended for teachers of students in grade 6-8 that focused on concepts in Biomedical Engineering. Selected as a winner in the NIH Biomedical Engineering Challenge and awarded a $5,000 cash prize. ",
+			logo: "./NIH_logo.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+		{
+			title: "Bionic Pancreas | ARPA-H",
+			description:
+				"Developed a proposal based on current clinical research regarding a closed loop bionic pancreas system mainly focusing on Type 1 Diabetes. Made it quarterfinals in the Advanced Research Projects Agency for Health Dash Competition and awarded a $6,000 Cash Prize.",
+			logo: "./ARPAH.png",
+			linkText: "View Project",
+			link: "/article/1",
+		},
+		
+		{
+			title: "Pushback to the Future | NASA",
+			description:
+				"Developed a ML Model that predicts pushback time at US airports. Also developed a federated learning variant of our approach. Placed 3rd in a competition help by NASA and awarded a $8,000 Cash Prize.",
+			logo: "./NASA.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{	
+			title: "Giving Blood & Plasma Innovation Challenge | HHS",
+			description:
+				"Developed a 3-pronged approach focused on improving blood donations that includes physical outreach, social media platforms, and data-driven ML. Selected as a winner in a challenge held by The Department of Health and Human Services and awarded a $10,000 Cash Prize.",
+			logo: "./hhs.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "Promoting Equity & Access | Georgia Tech ",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Wrote a proposal advocating for policy change on campus to help students with cognitive, speech and motor disabilities. Selected as a second place winner in the Student Innovation Competition by GT's College of Engineering's DEI Council and awarded a $1,000 Cash Prize.",
+			logo: "./GT.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},

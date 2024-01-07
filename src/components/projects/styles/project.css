@@ -27,24 +27,34 @@
 }
 
 .project-logo {
-	width: 30px;
+	width: 40px;
+	padding-right: 5px;
+	align-self: center;
+
 }
 
 .project-logo img {
 	width: 100%;
+	display: flex;
+}
+
+.project-header-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1em;
+	font-weight: 700;
 }
 
 .project-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
 	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
 	font-weight: 700;
 }
 
 .project-description {
 	color: var(--secondary-color);
+	font-size: 14px;
 }
 
 .project-link {

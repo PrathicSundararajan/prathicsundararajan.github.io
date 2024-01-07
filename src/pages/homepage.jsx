@@ -165,11 +165,16 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-
+						<div className="homepage-projects-title">
+							Projects
+						</div>
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
 
+						<div className="homepage-projects-title">
+							News
+						</div>
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
