@@ -39,12 +39,17 @@
 .homepage-image-container {
 	width: 370px;
 	height: 370px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.homepage-image-container img {
+	width: 100%;
 }
 
 .homepage-image-wrapper {
-	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
+	/* transform: rotate(3deg); */
 }
 
 .homepage-image-wrapper img {

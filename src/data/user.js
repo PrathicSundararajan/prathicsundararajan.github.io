@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "My Portfolio",
+		name: "Prathic Sundararajan",
+		email: "me@prathic.com",
 		logo: "../logo.png",
 	},
 
@@ -22,9 +22,9 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Prathic Sundararajan",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on a variety of projects over the years in various different domains. They all have something to do in some way or fashion with healthcare, technology or space. But in general, I enjoy working on cool projects with individuals who are passionate about the work. I enjoy participating in challenges and competitions because it allows me to learn about unique problems and gives me a chance to innovate and implement new solutions. If you're interested in any of the projects I've worked on, please feel free to check out the included details and reach out to me!",
 	},
 
 	articles: {
