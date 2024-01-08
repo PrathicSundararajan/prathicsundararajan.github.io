@@ -1,6 +1,8 @@
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import {   BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
+import Preloader from "./components/Pre";
+
 
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
@@ -14,14 +16,23 @@ import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
 function App() {
+	const [load, upadateLoad] = useState(true);
+
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
 		}
+		const timer = setTimeout(() => {
+			upadateLoad(false);
+		  }, 1200);
+
+		return () => clearTimeout(timer);
+
 	}, []);
 
 	return (
 		<div className="App">
+		<Preloader load={load} />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

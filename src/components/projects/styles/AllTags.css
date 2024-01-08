@@ -1,0 +1,29 @@
+@import "../../../data/styles.css";
+
+.all-projects {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	/* padding-top: 30px; */
+	padding-bottom: 30px;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+
+.indiv-tags-pad {
+	padding: 0.5px;
+}
+
+.indiv-tags {
+	border-radius: 25px;
+	padding: 2px;
+}
+
+.all-tags {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+
+}

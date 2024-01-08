@@ -1,11 +1,17 @@
-const INFO = {
+const TAGS_DICT = {
+	"HEALTH_SOFT_Gov" : ["Proposals","Health", "Government"],
+	"HEALTH_SOFT_GT" : ["Proposals","Health", "GT"],
+	"ML_NASA" : ["Data Science", "NASA"]
+} 
+var INFO = {
 	main: {
 		title: "My Portfolio",
 		name: "Prathic Sundararajan",
 		email: "me@prathic.com",
 		logo: "../logo.png",
 	},
-
+	INDIV_TAGS : ["ALL", "Proposals","Health", "Government","Data Science", "NASA","GT"],
+	curr_tag : "",
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/",
@@ -41,6 +47,7 @@ const INFO = {
 			logo: "./NIH_logo.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			tags: TAGS_DICT["HEALTH_SOFT_Gov"]
 		},
 		{
 			title: "Bionic Pancreas | ARPA-H",
@@ -49,15 +56,17 @@ const INFO = {
 			logo: "./ARPAH.png",
 			linkText: "View Project",
 			link: "/article/1",
+			tags: TAGS_DICT["HEALTH_SOFT_Gov"]
 		},
 		
 		{
 			title: "Pushback to the Future | NASA",
 			description:
-				"Developed a ML Model that predicts pushback time at US airports. Also developed a federated learning variant of our approach. Placed 3rd in a competition help by NASA and awarded a $8,000 Cash Prize.",
+				"Developed a ML Model that predicts pushback time at US airports. Also developed a federated learning variant of our approach. Placed 3rd in a competition held by NASA and awarded a $8,000 Cash Prize.",
 			logo: "./NASA.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			tags: TAGS_DICT["ML_NASA"]
 		},
 
 		{	
@@ -67,6 +76,7 @@ const INFO = {
 			logo: "./hhs.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			tags: TAGS_DICT["HEALTH_SOFT_Gov"]
 		},
 
 		{
@@ -76,6 +86,7 @@ const INFO = {
 			logo: "./GT.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			tags: TAGS_DICT["HEALTH_SOFT_GT"]
 		},
 	],
 };
