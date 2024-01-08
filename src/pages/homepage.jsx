@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider} from "react-helmet-async";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -69,6 +69,7 @@ const Homepage = () => {
 	};
 
 	return (
+		<HelmetProvider>
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
@@ -204,6 +205,7 @@ const Homepage = () => {
 				</div>
 			</div>
 		</React.Fragment>
+		</HelmetProvider>
 	);
 };
 

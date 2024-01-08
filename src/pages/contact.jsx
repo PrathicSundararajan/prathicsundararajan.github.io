@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider} from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -19,6 +19,7 @@ const Contact = () => {
 	const currentSEO = SEO.find((item) => item.page === "contact");
 
 	return (
+		<HelmetProvider>
 		<React.Fragment>
 			<Helmet>
 				<title>{`Contact | ${INFO.main.title}`}</title>
@@ -85,6 +86,7 @@ const Contact = () => {
 				</div>
 			</div>
 		</React.Fragment>
+		</HelmetProvider>
 	);
 };
 
