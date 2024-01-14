@@ -26,12 +26,10 @@ const Project = (props) => {
 						</div>
 					</div>
 				</Link>
-				<div>
 					<AllTags 
 						tags = {tags}
 						setProjState = {setProjState}					
 					/>
-				</div>
 			</div>
 		</React.Fragment>
 	);

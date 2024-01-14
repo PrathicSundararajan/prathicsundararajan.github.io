@@ -6,7 +6,8 @@
 	opacity: 0.8;
 	height: 100%;
 	background-color: var(--background-page-3-color);
-
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .project a {

@@ -18,12 +18,14 @@
 .indiv-tags {
 	border-radius: 25px;
 	padding: 2px;
-	padding-bottom: 10px;
 }
 
 .all-tags {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: center;
+	align-items: center;
+	justify-content: center;	
+	margin: 0 auto;
+	padding-bottom: 5px;
+
+
 }
