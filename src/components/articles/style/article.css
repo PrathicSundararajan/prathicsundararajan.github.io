@@ -9,8 +9,20 @@
 }
 
 .article-left-side {
-	min-width: 20%;
-	max-width: 20%;
+	min-width: 10%;
+	max-width: 10%;
+}
+
+.article-logo {
+	width: 80px;
+	padding-right: 5px;
+	align-self: center;
+
+}
+
+.article-logo img {
+	width: 100%;
+	display: flex;
 }
 
 .article-right-side {

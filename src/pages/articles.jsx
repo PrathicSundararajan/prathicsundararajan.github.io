@@ -62,6 +62,7 @@ const Articles = () => {
 											title={article().title}
 											description={article().description}
 											link={"/article/" + (index + 1)}
+											logo = {article().logo}
 										/>
 									</div>
 								))}

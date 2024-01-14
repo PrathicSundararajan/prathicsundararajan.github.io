@@ -24,6 +24,7 @@ function article_1() {
 					outline: 2px solid red;
 				}
 				`,
+				logo: "./hhs.png",
 		body: (
 			<React.Fragment>
 				<div className="article-content">
@@ -52,6 +53,7 @@ function article_2() {
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		logo: "./hhs.png",
 		body: (
 			<React.Fragment>
 				<h1>Content of article 2</h1>
@@ -74,6 +76,7 @@ function article_3() {
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		logo: "./hhs.png",
 		body: (
 			<React.Fragment>
 				<h1>Content of article 3</h1>

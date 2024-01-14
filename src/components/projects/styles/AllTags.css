@@ -18,6 +18,7 @@
 .indiv-tags {
 	border-radius: 25px;
 	padding: 2px;
+	padding-bottom: 10px;
 }
 
 .all-tags {
@@ -25,5 +26,4 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: center;
-
 }

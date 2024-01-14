@@ -1,10 +1,11 @@
 @import "../../../data/styles.css";
 
 .homepage-article {
-	width: 90%;
+	/* width: 90%; */
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
+
 }
 
 .homepage-article:hover {
@@ -15,6 +16,25 @@
 
 .homepage-article-content {
 	padding: 30px;
+}
+
+.homepage-article-logo {
+	width: 40px;
+	padding-right: 5px;
+	align-self: center;
+
+}
+
+.homepage-article-logo img {
+	width: 100%;
+	display: flex;
+}
+
+.homepage-article-header-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1em;
+	font-weight: 700;
 }
 
 .homepage-article-date {
@@ -28,7 +48,6 @@
 	opacity: 1;
 	color: var(--primary-color);
 	font-size: 16px;
-	margin-bottom: 1em;
 	font-weight: 700;
 }
 

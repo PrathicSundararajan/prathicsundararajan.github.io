@@ -42,7 +42,8 @@
 }
 
 .page-content {
-	background-color: rgb(250, 250, 250);
+	/* background-color: rgb(250, 250, 250); */
+	background-color: var(--background-page-color);
 	position: relative;
 }
 
@@ -53,8 +54,10 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: rgb(250, 250, 250);
-	border: 1px solid #f4f4f5;
+	background-color:  var(--background-page-color); 
+	/* rgb(250, 250, 250); */
+	border: 1px solid  var(--background-page-color);
+	 /* #f4f4f5; */
 }
 
 .page-content:before {

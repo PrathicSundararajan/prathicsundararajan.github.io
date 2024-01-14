@@ -101,15 +101,16 @@ const Homepage = () => {
 								</div>
 							</div>
 
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
+							<div className="homepage-first-area-right-side">						
+							<div className="homepage-image-container">
 								<img
-											src="homepage.jpg"
+											src="logo.png"
 											alt="about"
 											className="homepage-image"
 										/>
-									{/* <div className="homepage-image-wrapper">		</div> */}
-								</div>
+									<div className="homepage-image-wrapper">		</div>
+								</div> 
+
 							</div>
 						</div>
 
@@ -166,13 +167,6 @@ const Homepage = () => {
 							</a>
 						</div>
 						<div className="homepage-projects-title">
-							Projects
-						</div>
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="homepage-projects-title">
 							News
 						</div>
 						<div className="homepage-after-title">
@@ -188,6 +182,7 @@ const Homepage = () => {
 											title={article().title}
 											description={article().description}
 											link={"/article/" + (index + 1)}
+											logo = {article().logo}										
 										/>
 									</div>
 								))}
@@ -197,6 +192,14 @@ const Homepage = () => {
 								<Works />
 							</div>
 						</div>
+						<div className="homepage-projects-title">
+							Projects
+						</div>
+						<div className="homepage-projects">
+							<AllProjects />
+						</div>
+
+				
 
 						<div className="page-footer">
 							<Footer />
@@ -210,3 +213,4 @@ const Homepage = () => {
 };
 
 export default Homepage;
+

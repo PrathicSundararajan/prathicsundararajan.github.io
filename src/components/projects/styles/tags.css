@@ -24,6 +24,8 @@
 .button2{
 	font-size: 12px;	
 	border-radius: 20px;
+	background-color: lightgray;
+	font-weight: bold;
 }
 
 .button2:hover {
